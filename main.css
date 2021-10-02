@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 300px;
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: auto;
+	list-style: none;
+	font-size: 30px;
+	color: whitesmoke;
+	padding: 20px 10px;
+	font-family: Verdana;
+}
+
+nav{
+	background: darkcyan;
+	width: 100%;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+nav a{
+	width: 150px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: darkcyan;
+	font-size: 20px;
+	color: whitesmoke;
+	padding: 30px 10px;
+	font-family: Verdana;
+}
+
+nav a:hover{
+	background: greenyellow;
+	color: white;
+}
+
+body{
+	justify-content: center;
+	align-items: left;
+	min-height: 100%;
+	background: whitesmoke;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.grid {
+ padding: 2em;
+}
+
+.grid-inner {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 -0.5em;
+}
+
+.item {
+ flex: 1 1 100%;
+ padding: 0.5em;
+}
+
+.item-inner {
+ background-size: cover;
+ background-image: url(tonymix.jpg);
+ padding-top: calc(100% / (16/9));
+}
+
+.item:nth-child(2) .item-inner {
+ background-image: url(tonymix1.jpg);
+}
+.item:nth-child(3) .item-inner {
+ background-image: url(tonymix2.jpg);
+}
+.item:nth-child(4) .item-inner {
+ background-image: url(tonymix3.jpg);
+}
+.item:nth-child(5) .item-inner {
+ background-image: url(tonymix4.jpg);
+}
+.item:nth-child(6) .item-inner {
+ background-image: url(tonymix5.jpg);
+}
+.item:nth-child(7) .item-inner {
+ background-image: url(tonymix6.jpg);
+}
+.item:nth-child(8) .item-inner {
+ background-image: url(tonymix7.jpg);
+}
+.item:nth-child(9) .item-inner {
+ background-image: url(tonymix8.jpg);
+}
+.item:nth-child(10) .item-inner {
+ background-image: url(tonymix9.jpg);
+}
+.item:nth-child(11) .item-inner {
+ background-image: url(tonymix10.jpg);
+}
+.item:nth-child(12) .item-inner {
+ background-image: url(tonymix11.jpg);
+}
+
+@media screen and (min-width: 480px) {
+ .item {
+  flex: 1 1 50%;
+ }
+}
+
+@media screen and (min-width: 768px) {
+ .item {
+  flex: 1 1 33.333%;
+ }
+}
+
+@media screen and (min-width: 980px) {
+ .item {
+  flex: 1 1 25%;
+ }
+}
